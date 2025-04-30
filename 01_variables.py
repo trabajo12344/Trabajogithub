@@ -23,21 +23,21 @@ print("Este es el valor de:", my_bool_variable)
 print(len(my_string_variable))
 
 # Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
-name, surname, alias, age = "Brais", "Moure", 'MoureDev', 35
-print("Me llamo:", name, surname, ". Mi edad es:",
-      age, ". Y mi alias es:", alias)
+nombre, apodo, alias, edad = "David", "Deivid", 'davidgumer', 17
+print("Me llamo:", nombre, apodo, ". Mi edad es:",
+      edad, ". Y mi alias es:", alias)
 
 # Inputs
-name = input('¿Cuál es tu nombre? ')
-age = input('¿Cuántos años tienes? ')
-print(name)
-print(age)
+nombre = input('¿Cuál es tu nombre? ')
+edad = input('¿Cuántos años tienes? ')
+print(nombre)
+print(edad)
 
 # Cambiamos su tipo
-name = 35
-age = "Brais"
-print(name)
-print(age)
+nombre = 17
+edad = "David"
+print(nombre)
+print(edad)
 
 # ¿Forzamos el tipo?
 address: str = "Mi dirección"
