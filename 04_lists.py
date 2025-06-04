@@ -1,3 +1,4 @@
+
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=10872
 
 ### Lists ###
@@ -9,12 +10,12 @@ my_other_list = []
 
 print(len(my_list))
 
-my_list = [35, 24, 62, 52, 30, 30, 17]
+my_list = [1, 24, 62, 10, 15, 9, 21]
 
 print(my_list)
 print(len(my_list))
 
-my_other_list = [35, 1.77, "Brais", "Moure"]
+my_other_list = [64, 1.77, "David", "Gautos"]
 
 print(type(my_list))
 print(type(my_other_list))
@@ -29,7 +30,7 @@ print(my_list.count(30))
 # print(my_other_list[4]) IndexError
 # print(my_other_list[-5]) IndexError
 
-print(my_other_list.index("Brais"))
+print(my_other_list.index("David"))
 
 age, height, name, surname = my_other_list
 print(name)
@@ -44,19 +45,19 @@ print(my_list + my_other_list)
 
 # Creación, inserción, actualización y eliminación
 
-my_other_list.append("MoureDev")
+my_other_list.append("deivid")
 print(my_other_list)
 
-my_other_list.insert(1, "Rojo")
+my_other_list.insert(1, "verde")
 print(my_other_list)
 
-my_other_list[1] = "Azul"
+my_other_list[1] = "loco"
 print(my_other_list)
 
-my_other_list.remove("Azul")
+my_other_list.remove("loco")
 print(my_other_list)
 
-my_list.remove(30)
+my_list.remove(9)
 print(my_list)
 
 print(my_list.pop())
@@ -89,6 +90,6 @@ print(my_new_list[1:3])
 
 # Cambio de tipo
 
-my_list = "Hola Python"
+my_list = "Hola tonotos"
 print(my_list)
 print(type(my_list))
